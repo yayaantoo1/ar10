@@ -58,44 +58,41 @@
       <a-entity 
         id="sun"
         gltf-model="./assets/3D/sun.glb" 
-        scale="0.01 0.01 0.01" 
+        scale="0.1 0.1 0.1" 
         position="0 0 0"
         animation="property: rotation; to: 0 360 0; loop: true; dur: 10000">
       </a-entity>
 
-      <!-- Grup rotasi Bumi -->
       <a-entity 
-        id="earth-orbit" 
+        id="venus-orbit" 
         position="0 0 0"
         animation="property: rotation; to: 0 360 0; loop: true; dur: 15000">
         <a-entity 
           gltf-model="./assets/3D/venus.glb" 
-          scale="0.2 0.2 0.2" 
-          position="1 0 0">
-        </a-entity>
-      </a-entity>
-
-      <!-- Grup rotasi Jupiter -->
-      <a-entity 
-        id="jupiter-orbit" 
-        position="0 0 0"
-        animation="property: rotation; to: 0 360 0; loop: true; dur: 20000">
-        <a-entity 
-          gltf-model="./assets/3D/bumi.glb" 
-          scale="0.2 0.2 0.2" 
+          scale="0.5 0.5 0.5" 
           position="2 0 0">
         </a-entity>
       </a-entity>
 
-      <!-- Grup rotasi Saturnus -->
       <a-entity 
-        id="saturn-orbit" 
+        id="bumi-orbit" 
+        position="0 0 0"
+        animation="property: rotation; to: 0 360 0; loop: true; dur: 20000">
+        <a-entity 
+          gltf-model="./assets/3D/bumi.glb" 
+          scale="0.5 0.5 0.5" 
+          position="4 0 0">
+        </a-entity>
+      </a-entity>
+
+      <a-entity 
+        id="venus-orbit" 
         position="0 0 0"
         animation="property: rotation; to: 0 360 0; loop: true; dur: 25000">
         <a-entity 
-          gltf-model="./assets/3D/mars.glb" 
-          scale="0.3 0.3 0.3" 
-          position="3 0 0">
+          gltf-model="./assets/3D/venus.glb" 
+          scale="0.003 0.003 0.003" 
+          position="6 0 0">
         </a-entity>
       </a-entity>
 
